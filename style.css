@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #0077cc;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+section {
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.about {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.about img {
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+footer {
+    background: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.services {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.service-card {
+    background: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    color: #0077cc;
+}
+
+.contact {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .service-card {
+        margin: 10px;
+    }
+
+    .about img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .contact {
+        padding: 15px;
+    }
+
+    .contact input,
+    .contact textarea,
+    .contact button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+section {
+    padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
