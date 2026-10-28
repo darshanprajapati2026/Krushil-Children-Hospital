@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Krushil Children's Hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Krushil Children's Hospital</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Contact Our Hospital</h2>
+            <p><strong>Address:</strong> Gandhinagar, Gujarat [Enter full hospital address]</p>
+            <p><strong>Phone:</strong> [Enter hospital contact number]</p>
+            <p><strong>Email:</strong> [Enter hospital email address]</p>
+            <p><strong>Emergency:</strong> For a medical emergency, contact local emergency services or visit the
+                nearest emergency department.</p>
+
+            <h3>Send Us a Message</h3>
+            <form id="contactForm">
+                <label for="from_name">Parent/Guardian Name</label>
+                <input id="from_name" type="text" name="from_name" placeholder="Your name" required>
+
+                <label for="from_email">Email Address</label>
+                <input id="from_email" type="email" name="from_email" placeholder="Your email address" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"
+                    placeholder="How may we help you? Please do not include urgent medical concerns."
+                    required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <h3>Our Location</h3>
+            <iframe src="https://www.google.com/maps?q=Gandhinagar,Gujarat&output=embed"
+                title="Map showing Gandhinagar, Gujarat" width="100%" height="300" style="border:0;" allowfullscreen
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p>Update the map link with the exact hospital address before publishing.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Krushil Children's Hospital. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Keep this script only if script.js is configured for your EmailJS service and template. -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> -->
+    <!-- <script>
+        emailjs.init({publicKey: "zDBWzNZUP8MnvuMNy"});
+    </script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
